@@ -1,0 +1,45 @@
+body{
+  font-family: "Microsoft JhengHei";
+  background:url(image/底圖.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.nav{
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.li{
+  padding: 20px;
+}
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.aaa{
+  text-align: center;
+  color: #668800;
+  padding-top: 230px;
+  font-size: 24px;
+}
+.跳轉{
+  border-style:solid;
+  width: 500px;
+  height: 140px;
+  border-radius: 10px;
+  text-align: center;
+  color:#fff;
+  border-color: #668800;
+  background-color:#668800;
+  margin-top: 50px;
+  margin-left: 505px;
+  padding-top: 20px;
+}

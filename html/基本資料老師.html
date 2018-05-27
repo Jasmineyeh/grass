@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>小草書屋</title>
+        
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="基本資料.css">
+</head>
+ <body  >
+  </div>
+  
+    <nav class="nav navbar-inverse">
+    <ul class="nav navbar-nav navbar-left ">
+      <a href="test.html"><img src="image/logo.png" style="height:50%;width: 50%"></a>
+    </ul>
+     <ul class="nav navbar-nav navbar-right ">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" >關於我們</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">培育計畫</a></li>
+                <li><a href="#">參與行動</a></li>
+                <li><a href="#">生命記事</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">幸福商城</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">文具類</a></li>
+                <li><a href="#">玩具類</a></li>
+                <li><a href="#">服飾類</a></li>
+            </ul>
+        </li>  
+        <li><a href="#">註冊會員</a></li>
+        <li>
+        <a href="#">
+          <span class="glyphicon glyphicon-envelope"></span>
+          Hello
+        </a>
+        </li>
+        <li style="padding-top: 8px">
+        <button type="button" class="btn btn-warning">捐款支持</button>
+        </li>
+    </ul>
+</nav>
+<div>
+  <p class="aaa"><b>
+  註冊新帳號</b>
+  </p>
+</div>
+<div class="bbb">
+  <p class="ddd"><b>step.1</b><br><b>身 分 選 擇</b></p>
+  <p class="iii"><b>step.2</b><br><b>基 本 資 料</b></p>
+  <p class="ccc"><b>step.3</b><br><b>信 箱 驗 證</b></p>
+</div>
+<p align="center" style="color: #668800;">______________________________________________________________________________________________________________</p>
+
+<DIV >
+    
+  
+
+  <form method="POST" action="基本資料.php">
+    <p class="head"> <b>填寫老師基本資料</b></p><P class="mustwrite">*為必填</P><br>
+    <p align="center" style="color: #000;">_____________________________________________________________________________________________</p>
+    
+    <div class="input-group">
+      <label><p class="star">*</p>帳&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp號</label>
+      <input type="text" name="username">
+      <p class="text1">&nbsp&nbsp請輸入8位元以上之數字、英文，不包含特殊符號。</p>
+    </div>
+    
+    <div class="input-group">
+      <label><p class="star">*</p>密&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp碼</label>
+      <input type="password" name="password_1">
+      <p class="text1">&nbsp&nbsp請輸入8位元以上之數字、英文，不包含特殊符號。</p>
+    </div>
+    <div class="input-group">
+      <label><p class="star">*</p>確認密碼</label>
+      <input type="password" name="password_2">
+      <p class="text1">&nbsp&nbsp請再次輸入相同密碼。</p>
+    </div>
+    <div class="input-group1">
+      <label><p class="star">*</p>電子信箱</label>
+      <input type="text" name="email">
+    </div>
+        
+    <p class="head">個人基本資料</p><br>
+    <div class="input-group">
+      <label><p class="star">*</p>姓&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名</label>
+      <input type="text" name="name">
+      <label>暱&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp稱</label>
+      <input type="text" name="name1">
+    </div>
+    <div class="input-group">
+      <label><p class="star">*</p>性&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp別</label>
+      <select name="你的性別">
+        <option value="-"></option>
+        <option value="male">男</option>
+        <option value="female">女</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label><p class="star">*</p>生&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp日</label>
+      <input type="date" name="birthday">
+       
+
+    </div>    
+    <div class="input-group">
+      <label><p class="star">*</p>行動電話</label>
+      <input type="tel" name="phone">
+    </div>
+    <div class="input-group">
+      <label>&nbsp電&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp話</label>
+      <input type="tel" name="telephone">
+    </div>
+     <div class="input-group">
+      <label><p class="star">*</p>通訊地址</label>
+      <input type="number" name="address1">
+      <p class="text1">&nbsp&nbsp郵遞區號xxx-xx</p>
+    </div>
+     <div class="input-group1">
+      <label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+      <input type="text" name="address2">
+     
+    </div>
+    <div class="input-group">
+      <label><p class="star">*</p>主&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp修</label>
+      <input type="text" name="subject">
+    </div>
+        <div class="input-group">
+      <label><p class="star">*</p>專&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp長</label>
+      <input type="text" name="subject">
+    </div>
+
+
+      
+  
+
+   
+    <div class="input-group">
+           <button type="submit" name="Register" class="btn" ><a href="信箱驗證.html">送出資料</button>
+    </div>
+    <p>
+      已經是會員<a href="test.html">登入</a>
+    </p>
+  </form>
+  </DIV>
+</body>
+</html>

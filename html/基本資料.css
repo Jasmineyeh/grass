@@ -1,0 +1,173 @@
+
+body{
+  font-family: "Microsoft JhengHei";
+  background:url(image/back.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 100%;
+
+}
+
+.nav{
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.li{
+  padding: 20px;
+}
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.aaa{
+  text-align: center;
+  color: #668800;
+  padding-top: 230px;
+  font-size: 24px;
+}
+.bbb{
+  display: flex;
+   padding-left: 525px;
+}
+
+.ccc{border-style:solid;
+  border-radius: 10px;
+  margin-left: 130px;
+  text-align: center;
+  border-color: #FFF;
+  background-color: #FFF;
+  color:#696969;
+}
+.ddd{
+  border-style:solid;
+  border-radius: 10px;
+  text-align: center;
+  color:#696969;
+  border-color: #FFF;
+  background-color:#FFF;
+}
+.iii{
+  border-style:solid;
+  border-radius: 10px;
+  margin-left: 130px;
+  text-align: center;
+  border-color: #668800;
+  background-color: #668800;
+  color::#fff;
+}
+.eee{
+  border:2px  #9ACD32 solid;
+  border-radius:140px;
+  width:170px;
+  height:170px;
+  background-color:#9ACD32;
+  padding-top: 40px;
+}
+.fff{
+  border:2px #668800 solid;
+  border-radius:140px;
+  width:170px;
+  height:170px;
+  background-color:#668800;
+  margin-left: 80px;
+  padding-top: 40px;
+}
+.ggg{
+  border:2px #F0FFF0 solid;
+  border-radius:140px;
+  width:170px;
+  height:170px;
+  background-color:#F0FFF0;
+  margin-left: 80px;
+  padding-top: 40px;
+}
+.hhh{
+   display: flex;
+   padding-left: 300px;
+   padding-top:40px;
+   text-align: center;
+   font-size: 18px;
+   
+}
+
+
+.head{
+  text-align: left;
+  color: #668800;
+  float: left;
+
+}
+.mustwrite{
+  color: red;
+  text-align: right;
+  font-size: 9px;
+  float: right;
+
+}
+form{
+ width: 50%;
+ margin: 0px auto;
+ padding: 30px;
+ border: 1px solid #b0c4de;
+ background: white;
+ border-radius: 10px;
+}
+.star{
+  color: red;
+  float: left;
+}
+
+.text1{
+ 
+  float: right;
+  font-size: 10px;
+  color:  #aaaaaa;
+  padding-top: 5px;
+}
+
+.input-group{
+ margin: 10px 0px 10px 0px;
+}
+.input-group label{
+ display: inline;
+ text-align: left;
+ margin: 3px;
+ float: left;
+}
+.input-group input{
+ height: 30px;
+ width: 150px;
+ padding: 5px 10px;
+ font-size: 16px;
+ border-radius: 5px;
+ border: 1px solid gray;
+}
+.input-group1 input{
+ height: 30px;
+ width: 300px;
+ padding: 5px 10px;
+ font-size: 16px;
+ border-radius: 5px;
+ border: 1px solid gray;
+}
+
+
+
+.btn{
+
+ padding: 10px;
+ margin-left: 300px;
+ font-size: 15px;
+ color: white;
+ background: #668800;
+ border: none;
+ border-radius: 5px;
+}
